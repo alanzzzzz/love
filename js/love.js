@@ -1,3 +1,10 @@
-/**
- * Created by Administrator on 2018/5/31.
- */
+$(function(){
+    $('#btnBox>div').click(function(){
+        $(this).addClass('on').siblings().removeClass('on');
+        if($(this).hasClass('last')){
+            $(this).children('input').focus()
+        }
+
+
+    })
+});

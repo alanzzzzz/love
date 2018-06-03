@@ -4,7 +4,6 @@
 }
 .inp1{
     font-size: .28rem;
-    color: #f6d9e3;
     border-top: 1px solid #f6d9e3;
     border-bottom: 1px solid #f6d9e3;
     width:100%;
@@ -12,6 +11,12 @@
     margin-top: .3rem;
     display: block;
     padding-left: .2rem;
+}
+.inp1::-webkit-input-placeholder{
+    color: #f6d9e3;
+}
+#btnBox{
+    padding:0 .2rem 0 .2rem;
 }
 #btnBox>.btn{
     font-size: .32rem;
@@ -21,14 +26,79 @@
     background: white;
     border: 1px solid #f6d9e3;
     padding-right: .12rem;
-    margin-left:.15rem;
     margin-top: .45rem;
+    margin-bottom: .45rem;
+}
+.money{
+    display: none;
+    background:#fb9ac7;
 }
 .heart2{
     height: .22rem;
-    display: inline-block;
+    display: none;
+
 }
-#btnBox>.btn2{
+#btnBox>.btn.on{
     background: #fb9ac7;
     color: white;
+}
+.frist.on>.heart2{
+    display: block;
+}
+.last.on>input.money{
+    display: block;
+}
+
+.last.on>span{
+    display: none;
+}
+
+.pay{
+    font-size: .28rem;
+    color: black;
+    border-top: 1px solid #f6d9e3;
+    border-bottom: 1px solid #f6d9e3;
+    width:100%;
+    height: .86rem;
+    display: block;
+    padding-left: .2rem;
+}
+.limg1{
+    width: .51rem;
+    height: .42rem;
+    margin-right: .25rem;
+}
+.limg2{
+    width: .57rem;
+    height: .36rem;
+    margin-right: .25rem;
+}
+.payn{
+    width: 7.1rem;
+    height: .88rem;
+    border-radius: .1rem;
+    font-size: .3rem;
+    color: white;
+    background:#fb9ac7 ;
+    margin:.5rem 0 0 .2rem;
+}
+.tan1{
+    position: absolute;
+    left: .5rem;
+    top: 1rem;
+    width: 6.5rem;
+    height: 8.54rem;
+    background: white;
+    border-radius: 30px;
+}
+.t1b{
+    width: 5.64rem;
+    height: 5.25rem;
+    margin-left: .5rem;
+}
+.t1b>li{
+    font-size: .26rem;
+    color: #f7699e;
+    margin-bottom: .2rem;
+    list-style: none;
 }

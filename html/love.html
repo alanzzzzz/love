@@ -50,14 +50,16 @@
         立即支付
     </div>
 </div>
-
-
 <div>
+    <img src="../image/love/rule.png" class="act">
+</div>
+
+<div id="rule" flex="cross:center main:center" class="mask d-none">
     <div class="tan1">
-        <div>
-            <div class="t1h"></div>
-            <span>活动规则</span>
-            <div class="t1h"></div>
+        <div flex="main:justify">
+            <div class="t1h1"></div>
+            <span class="t1sp">活动规则</span>
+            <div class="t1h2"></div>
         </div>
         <div>
             <ul class="t1b">
@@ -68,10 +70,28 @@
                 <li>5、旧版wap套餐取消后方可参与本活动。若客户为预销户状态、或随E行等状态异常客户，也无法参与本活动。</li>
             </ul>
         </div>
+        <div id="popBtnBox">
+            <div class="rulebtn" flex="cross:center main:center">
+                知道了
+            </div>
+        </div>
 
     </div>
 </div>
 
+<div id="payment" flex="cross:center main:center" class="d-none mask">
+    <div class="paymengb">
+        <input type="tel" placeholder="请输入您的手机号码" class="inp2"/>
+        <div class="payt">
+            <span>获赠流量将通过该号码领取，受理结果将在完成扣款后，以短信形式通知。</span>
+        </div>
+        <div class="paybt" flex="main:justify">
+            <button class="pbtb1" flex="cross:center main:center">取消</button>
+            <button class="pbtb2" flex="cross:center main:center">确认</button>
+        </div>
+
+    </div>
+</div>
 
 
 

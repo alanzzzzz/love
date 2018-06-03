@@ -41,6 +41,7 @@
 #btnBox>.btn.on{
     background: #fb9ac7;
     color: white;
+   /* box-shadow:0 4px rgba(232,120,172,1);*/
 }
 .frist.on>.heart2{
     display: block;
@@ -81,11 +82,20 @@
     color: white;
     background:#fb9ac7 ;
     margin:.5rem 0 0 .2rem;
+    box-shadow:0 4px rgba(232,120,172,1);
+}
+.mask{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(179,179,179,.5);
+}
+.d-none{
+    display: none!important;
 }
 .tan1{
-    position: absolute;
-    left: .5rem;
-    top: 1rem;
     width: 6.5rem;
     height: 8.54rem;
     background: white;
@@ -95,6 +105,7 @@
     width: 5.64rem;
     height: 5.25rem;
     margin-left: .5rem;
+    margin-top: .6rem;
 }
 .t1b>li{
     font-size: .26rem;
@@ -102,3 +113,111 @@
     margin-bottom: .2rem;
     list-style: none;
 }
+.t1h1{
+    width: 1.96rem;
+    height: .01rem;
+    background: #f7699e;
+    margin-top: .64rem;
+    margin-left: .5rem
+}
+.t1h2{
+    width: 1.96rem;
+    height: .01rem;
+    background: #f7699e;
+    margin-top: .64rem;
+    margin-right: .5rem
+}
+.t1sp{
+    font-size: .32rem;
+    color: #f7699e;
+    margin-top: .48rem;
+}
+.rulebtn{
+    box-shadow:0 4px rgba(232,120,172,1);
+    border-radius: .1rem;
+    font-size: .3rem;
+    color: white;
+    background:#fb9ac7 ;
+    width: 100%;
+    height: .88rem;
+}
+#rule{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#popBtnBox{
+    padding: 0 .47rem;
+}
+.act{
+    position: absolute;
+    right: 0;
+    top: .26rem;
+    height: .48rem;
+}
+#payment{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.paymengb{
+    width: 6.72rem;
+    height: 3.82rem;
+    border-radius:20px;
+    background: white;
+    font-size: .28rem;
+    color: #fb9ac7;
+}
+.inp2{
+    font-size: .28rem;
+    border: 1px solid #f6d9e3;
+    border-radius: 10px;
+    width: 5.38rem;
+    height: .88rem;
+    margin-top: .37rem;
+    margin-left: .68rem;
+    margin-bottom: .2rem;
+    display: block;
+    padding-left: .2rem;
+
+}
+
+.inp2::-webkit-input-placeholder{
+    color: #f6d9e3;
+}
+.payt{
+    width: 5.5rem;
+    height: .8rem;
+    margin-left: .68rem;
+}
+.paybt{
+    width: 6.72rem;
+    height: 1.2rem;
+    margin-top: .47rem;
+}
+.pbtb1{
+    width: 3.36rem;
+    height: 1.2rem;
+    background: #cbcbcb;
+    color: white;
+    font-size: .3rem;
+    border-radius: 0 0 0 20px;
+}
+.pbtb2{
+    width: 3.36rem;
+    height: 1.2rem;
+    font-size: .3rem;
+    background:#fb9ac7 ;
+    color: white;
+    border-radius: 0 0 20px 0;
+ }
+
+
+
+
+
+

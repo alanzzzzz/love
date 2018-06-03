@@ -5,6 +5,12 @@ $(function(){
             $(this).children('input').focus()
         }
 
+    });
+    $('.act').click(function(){
+        $('#rule').removeClass('d-none')
+    });
+    $('.rulebtn').click(function(){
+        $('#rule').addClass('d-none')
+    });
 
-    })
 });

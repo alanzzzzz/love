@@ -34,13 +34,18 @@
 </div>
 <div>
     <div flex="main:justify">
-        <label class="pay" for="" flex="cross:center">
-        <img src="../image/love/wechat.png" class="limg1" />微信支付
-    </label>
+        <label class="pay1" for="" flex="cross:center">
+
+            <img src="../image/love/wechat.png" class="limg1" />微信支付
+            <input type="radio" name="pay" id="">
+
+        </label>
     </div>
     <div flex="main:justify" id="c32">
-        <label class="pay" for="" flex="cross:center">
+        <label class="pay2" for="" flex="cross:center">
             <img src="../image/love/pcash.png" class="limg2" />银联支付
+            <input type="radio" name="pay" id="">
+            <img src="../image/love/heart.png" class="heart">
         </label>
     </div>
 
@@ -86,6 +91,19 @@
             <span>获赠流量将通过该号码领取，受理结果将在完成扣款后，以短信形式通知。</span>
         </div>
         <div class="paybt" flex="main:justify">
+            <button class="pbtb1" flex="cross:center main:center">取消</button>
+            <button class="pbtb2" flex="cross:center main:center">确认</button>
+        </div>
+
+    </div>
+</div>
+
+<div id="keep" flex="cross:center main:center" class="d-none mask">
+    <div class="keepb">
+        <div class="keept">
+            您输入的手机号码与充值手机号码一致，无法 获赠流量。继续充值吗？
+        </div>
+        <div class="keepbt" flex="main:justify">
             <button class="pbtb1" flex="cross:center main:center">取消</button>
             <button class="pbtb2" flex="cross:center main:center">确认</button>
         </div>

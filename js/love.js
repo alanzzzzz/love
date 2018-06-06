@@ -1,4 +1,5 @@
 $(function(){
+
     $('#btnBox>div').click(function(){
         $(this).addClass('on').siblings().removeClass('on');
         if($(this).hasClass('last')){
@@ -14,14 +15,14 @@ $(function(){
     });
 
     $('.payn').click(function(){
-        var t1 =$('inp1').val();
-        var t2 =$('inp2').val();
-        var myreg =/^[1][3,4,5,7,8][0-9]{9}$/;
-        if (!myreg.test(t1)){
+        var t1 = $('inp1').val();
+        var t2 = $('inp2').val();
+        var myreg = /^[1][3,4,5,7,8][0-9]{9}$/;
+        if (myreg.test('inp1')) {
             $('.mistake').addClass('d-none');
             $('.payment').removeClass('d-none');
             $('.enter').click(function () {
-                if(myreg.test(t2)){
+                if (myreg.test( t2 )) {
                     $('.mistake1').removeClass('d-none');
                     if(t1===t2){
                         $('.payment').addClass('d-none');
@@ -40,6 +41,10 @@ $(function(){
                 }
                 else {
                     $('.mistake1').addClass('d-none');
+                    $('.mistake1').click(function () {
+                        $('.mistake1').addClass('d-none');
+                    })
+
                 }
             });
             $('.cancel').click(function () {
@@ -49,6 +54,9 @@ $(function(){
         }
         else {
             $('.mistake').removeClass('d-none');
+            $('.mistake').click(function () {
+                $('.mistake').addClass('d-none');
+            })
         }
     })
 });

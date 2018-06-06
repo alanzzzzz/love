@@ -12,6 +12,22 @@
     padding: .25rem;
     margin: .2rem;
 }
+.zf{
+    width: 7.1rem;
+    height: .88rem;
+    background: white;
+    border-radius: 10px;
+    border: 1px #ec78aa dashed;
+}
+.text1{
+    height: .88rem;
+    margin-top: .55rem;
+}
+.foot{
+    font-size: .28rem;
+    color: #d16284;
+    margin-top: .6rem;
+}
 
 
 

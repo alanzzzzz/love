@@ -57,18 +57,28 @@
 .pay1{
     font-size: .28rem;
     color: black;
-    border-top: 1px solid #f6d9e3;
-    border-bottom: 1px solid #f6d9e3;
     width:100%;
     height: .86rem;
     display: block;
     padding-left: .2rem;
 }
+#c3kj2{
+    border-bottom: 1px solid #f6d9e3;
+    width: 100vw;
+    height: .86rem;
+    padding-right: .2rem;
+}
+#c3kj1{
+    border-top: 1px solid #f6d9e3;
+    border-bottom: 1px solid #f6d9e3;
+    width: 100vw;
+    height: .86rem;
+    padding-right: .2rem;
+}
 .pay2{
     font-size: .28rem;
     color: black;
-    border-bottom: 1px solid #f6d9e3;
-    width:100%;
+    width:100vw;
     height: .86rem;
     display: block;
     padding-left: .2rem;
@@ -82,6 +92,16 @@
     width: .57rem;
     height: .36rem;
     margin-right: .25rem;
+}
+.c3inp{
+    display: none;
+
+}
+.yuan{
+    width: .33rem;
+    height: .33rem;
+    border-radius: 10px;
+    border: 1px solid #ffe5f3;
 }
 .payn{
     width: 7.1rem;
@@ -240,7 +260,7 @@
     position: absolute;
     bottom: 0;
 }
-.pbtb1{
+.cancel{
     width: 3.36rem;
     height: 1.2rem;
     background: #cbcbcb;
@@ -248,14 +268,53 @@
     font-size: .3rem;
     border-radius: 0 0 0 20px;
 }
-.pbtb2{
+.cancel1{
+    width: 3.36rem;
+    height: 1.2rem;
+    background: #cbcbcb;
+    color: white;
+    font-size: .3rem;
+    border-radius: 0 0 0 20px;
+}
+.enter{
     width: 3.36rem;
     height: 1.2rem;
     font-size: .3rem;
     background:#fb9ac7 ;
     color: white;
     border-radius: 0 0 20px 0;
- }
+}
+.enter1{
+    width: 3.36rem;
+    height: 1.2rem;
+    font-size: .3rem;
+    background:#fb9ac7 ;
+    color: white;
+    border-radius: 0 0 20px 0;
+}
+.mistake{
+    width: 4.64rem;
+    height: .9rem;
+    background: red;
+    color: white;
+    font-size: .3rem;
+    border-radius: 20px;
+    position: absolute;
+    left: 1.4rem;
+    top: 6.2rem;
+}
+.mistake1{
+    width: 4.64rem;
+    height: .9rem;
+    background: red;
+    color: white;
+    font-size: .3rem;
+    border-radius: 20px;
+    position: absolute;
+    left: 1.4rem;
+    top: 6.2rem;
+}
+
 
 
 
